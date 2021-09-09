@@ -1,0 +1,39 @@
+h1{
+    color: saddlebrown;
+    text-align: center;
+}
+
+p{
+    color: saddlebrown;
+    text-align: center;
+}
+
+body {
+    background-color:whitesmoke;
+}
+
+button{
+    background-color:wheat;
+    color:saddlebrown;
+    border: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    margin: 8px 4px;
+}
+
+form{
+    color:saddlebrown;
+}
+
+.P1{
+    text-align: center;
+}
+
+img {
+    max-width: 70%;
+    display: block;
+}
+
+canvas{
+    text-align: center;
+}
