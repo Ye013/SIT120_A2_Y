@@ -1,0 +1,41 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    text-align: center;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+blockquote{
+    text-align: center;
+}
+
+img{
+    margin-top: auto;
+    padding-left: 300px;
+}
+
+table{
+    color:darkolivegreen;
+    margin: 0px auto;
+}
+
+a{
+    color: aquamarine;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+}
