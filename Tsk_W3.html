@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task_1</title>
+        <link rel="styleSheet" href="W3.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <p id="P2"></p>
+        <p id="P1">First</p>
+        <p id="P3"></p>
+        <p id="P4"></p>
+        <p id="P5"></p>
+        <button type="button" 
+        onclick='document.getElementById("P1").innerHTML =
+         "One"'>First</button>
+        <script>
+            var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var sln = txt.length;
+            document.getElementById("P2").innerHTML =sln;
+
+            var x = 123;
+            x.toString();
+            (123).toString();
+            (100+23).toString();
+            document.getElementById("P3").innerHTML =x;
+
+            var fruits = ["Banana", "Orange", "Apple", "Mango"];
+            document.getElementById("P4").innerHTML = fruits.join(" * ");
+
+            var d = new Date();
+            document.getElementById("P5").innerHTML = d.getTime();
+        </script>
+    </body>
+</html>
